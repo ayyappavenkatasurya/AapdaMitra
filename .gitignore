@@ -1,0 +1,36 @@
+# Dependencies (Do not upload these!)
+node_modules/
+*/node_modules/
+package-lock.json
+yarn.lock
+
+# Environment Variables (CRITICAL: Keep your API Keys secret)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*/.env
+
+# Production Builds (React build folder)
+client/build/
+client/dist/
+
+# System Files (Mac/Windows junk)
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Editor directories (Optional, keeps repo clean)
+.vscode/
+.idea/
